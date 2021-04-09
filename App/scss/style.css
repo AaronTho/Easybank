@@ -95,6 +95,11 @@ a:hover {
   text-decoration: none;
 }
 
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -169,7 +174,8 @@ button,
 }
 
 .header nav {
-  padding: 1.0625rem 1.5rem;
+  padding-top: 1.0625rem;
+  padding-bottom: 1.0625rem;
 }
 
 .header__logo img {
@@ -190,6 +196,25 @@ button,
 
 .header__toggle > span:not(last-child) {
   margin-bottom: 5px;
+}
+
+.header__menu {
+  position: absolute;
+  width: calc(100% - 3rem);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: white;
+  margin-top: 1.5rem;
+  padding: 1.625rem;
+  border-radius: 3px;
+}
+
+.header__menu a {
+  display: block;
+  text-align: center;
+  color: #2d314d;
+  padding: 0.625rem;
 }
 
 .header__links a {
