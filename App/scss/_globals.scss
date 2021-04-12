@@ -68,9 +68,15 @@ button,
   background: linear-gradient(to right, $limeGreen, $brightCyan);
   border-radius: 50px;
   border: 0px;
-  color: white;
+  color: $white;
+  font-size: $font-sm;
   font-weight: 400;
   cursor: pointer;
+  transition: opacity 300ms ease-in-out;
+
+  &:hover {
+    opacity: 0.75;
+  }
 }
 
 // Visibility

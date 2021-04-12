@@ -79,7 +79,6 @@
       font-size: $font-sm;
       color: $grayishBlue;
       transition: color 300ms ease-in-out;
-
       &:not(:last-child) {
         margin-right: 32px;
       }
@@ -103,15 +102,6 @@
           opacity: 1;
         }
       }
-    }
-  }
-  &__cta {
-    font-size: $font-sm;
-    color: $white;
-    transition: opacity 300ms ease-in-out;
-
-    &:hover {
-      opacity: 0.75;
     }
   }
 }
