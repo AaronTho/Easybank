@@ -608,3 +608,7 @@ button:hover,
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.article__text {
+  text-decoration: none;
+}
