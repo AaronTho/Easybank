@@ -19,6 +19,7 @@ body {
   font-weight: 300;
   color: #9698a6;
   line-height: 1.3;
+  overflow-x: hidden;
 }
 
 @media (min-width: 64em) {
@@ -649,4 +650,13 @@ button:hover,
 
 .article__description {
   font-size: 0.8125rem;
+}
+
+.footer {
+  background-color: #2d314d;
+  color: #ffff;
+}
+
+.footer a {
+  color: #ffff;
 }
